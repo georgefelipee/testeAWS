@@ -4,7 +4,7 @@ import routes from './src/routes/routes.js';
 
 const app = express();
 routes(app)
-const port = 3000;
+const port = 80;
 
 app.use(express.urlencoded({extended:true}))
 app.listen(port,() => {
